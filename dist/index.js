@@ -1,13 +1,11 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.verifyToken = verifyToken;
 
-require("babel-polyfill");
-
-var _verifyToken = require("./authentication/verifyToken");
+var _verifyToken = require('./authentication/verifyToken');
 
 var _verifyToken2 = _interopRequireDefault(_verifyToken);
 
